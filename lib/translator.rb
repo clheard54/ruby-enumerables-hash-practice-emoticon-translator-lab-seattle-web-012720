@@ -3,7 +3,45 @@ require 'yaml'
 
 def load_library(file_path)
   hash = {
-    :get_meaning => {},
+    :get_meaning => {
+      "☜(⌒▽⌒)☞"
+angry:
+  - ">:("
+  - "ヽ(ｏ`皿′ｏ)ﾉ"
+bored:
+  - ":O"
+  - "(ΘεΘ;)"
+confused:
+  - "%)"
+  - "(゜.゜)"
+embarrased:
+  - ":$" 
+  - "(#^.^#)"
+fish:
+  - "><>"
+  - ">゜))))彡"
+glasses:
+  - "8D"
+  - "(^0_0^)"
+grinning:
+  - "=D"
+  - "(￣ー￣)"
+happy:
+  - ":)"
+  - "(＾ｖ＾)"
+kiss:
+  - ":*"
+  - "(*^3^)/~☆"
+sad:
+  - ":'("
+  - "(Ｔ▽Ｔ)"
+surprised:
+  - ":o"
+  - "o_O"
+wink:
+  - ";)"
+  - "(^_-)"
+    },
     :get_emoticon => {}
   }
 
