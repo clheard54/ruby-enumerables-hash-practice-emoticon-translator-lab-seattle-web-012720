@@ -4,13 +4,11 @@ require 'yaml'
 def load_library(file_path)
   hash = {
     :get_meaning => {
-      "☜(⌒▽⌒)☞"
-angry:
-  - ">:("
-  - "ヽ(ｏ`皿′ｏ)ﾉ"
-bored:
-  - ":O"
-  - "(ΘεΘ;)"
+      "☜(⌒▽⌒)☞" => "angel",
+      "ヽ(ｏ`皿′ｏ)ﾉ" => "angry",
+      "(ΘεΘ;)" => "bored",
+      
+      
 confused:
   - "%)"
   - "(゜.゜)"
